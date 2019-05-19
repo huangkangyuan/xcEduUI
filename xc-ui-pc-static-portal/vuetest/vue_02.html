@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:v-bind="http://www.w3.org/1999/xhtml" xmlns:v-on="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>vue.js常用指令</title>
+</head>
+<body>
+<div id="app">
+    <a v-bind:href="url"><span v-text="name"></span></a>
+    <input type="text" v-model="num1" >+
+    <input type="text" v-model="num2" >=
+    <input type="text" v-model="result" >
+    <button v-on:click="change">计算</button>
+</div>
+</body>
+<script src="vue.min.js"></script>
+<script>
+    // 实例化Vue对象
+    //vm :叫做MVVM中的 View Model
+    var VM = new Vue({
+        el: "#app",//表示当前vue对象接管app的div区域
+        data: {
+            name: '黑马程序员',// 相当于是MVVM中的Model这个角色
+            num1: 0,
+            num2: 0,
+            result: 0,
+            url: 'http://www.itcast.cn'
+        },
+        methods: {
+            change: function () {
+                this.result = Number.parseInt(this.num1) + Number.parseInt(this.num2)
+            }
+        }
+    });
+</script>
+</html>
