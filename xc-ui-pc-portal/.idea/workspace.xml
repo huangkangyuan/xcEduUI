@@ -1,0 +1,432 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c5f5d53d-4435-4b1e-a77d-f2a80f6bad41" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../xc-ui-pc-teach/.babelrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xc-ui-pc-teach/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xc-ui-pc-teach/.eslintignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xc-ui-pc-teach/.eslintrc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xc-ui-pc-teach/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xc-ui-pc-teach/.postcssrc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xc-ui-pc-teach/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xc-ui-pc-teach/build/build.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xc-ui-pc-teach/build/check-versions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xc-ui-pc-teach/build/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xc-ui-pc-teach/build/utils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xc-ui-pc-teach/build/vue-loader.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xc-ui-pc-teach/build/webpack.base.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xc-ui-pc-teach/build/webpack.dev.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xc-ui-pc-teach/build/webpack.prod.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xc-ui-pc-teach/build/webpack.test.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xc-ui-pc-teach/config/dev.env.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xc-ui-pc-teach/config/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xc-ui-pc-teach/config/prod.env.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xc-ui-pc-teach/config/proxyConfig.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xc-ui-pc-teach/config/sysConfig.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xc-ui-pc-teach/config/test.env.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xc-ui-pc-teach/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xc-ui-pc-teach/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xc-ui-pc-teach/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xc-ui-pc-teach/package.json.bak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xc-ui-pc-teach/src/App.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xc-ui-pc-teach/src/assets/dd.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xc-ui-pc-teach/src/assets/gg.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xc-ui-pc-teach/src/assets/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xc-ui-pc-teach/src/base/api/public.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xc-ui-pc-teach/src/base/api/system.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xc-ui-pc-teach/src/base/components/404.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xc-ui-pc-teach/src/base/components/HelloWorld.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xc-ui-pc-teach/src/base/components/breadcrumb.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xc-ui-pc-teach/src/base/components/foot.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xc-ui-pc-teach/src/base/components/head.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xc-ui-pc-teach/src/base/router/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xc-ui-pc-teach/src/common/utils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xc-ui-pc-teach/src/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xc-ui-pc-teach/src/menus.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xc-ui-pc-teach/src/mock/data/course.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xc-ui-pc-teach/src/mock/data/user.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xc-ui-pc-teach/src/mock/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xc-ui-pc-teach/src/mock/mock.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xc-ui-pc-teach/src/module/course/api/course.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xc-ui-pc-teach/src/module/course/components/course_steps.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xc-ui-pc-teach/src/module/course/components/media_upload.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xc-ui-pc-teach/src/module/course/components/webuploader.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xc-ui-pc-teach/src/module/course/components/webuploader2.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xc-ui-pc-teach/src/module/course/page/add.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xc-ui-pc-teach/src/module/course/page/course_add.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xc-ui-pc-teach/src/module/course/page/course_list.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xc-ui-pc-teach/src/module/course/page/course_manage.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xc-ui-pc-teach/src/module/course/page/course_manage/course_baseinfo.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xc-ui-pc-teach/src/module/course/page/course_manage/course_marketinfo.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xc-ui-pc-teach/src/module/course/page/course_manage/course_picture.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xc-ui-pc-teach/src/module/course/page/course_manage/course_plan.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xc-ui-pc-teach/src/module/course/page/course_manage/course_pub.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xc-ui-pc-teach/src/module/course/page/course_manage/course_summary.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xc-ui-pc-teach/src/module/course/page/course_manage/course_teacher.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xc-ui-pc-teach/src/module/course/page/edit.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xc-ui-pc-teach/src/module/course/page/list.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xc-ui-pc-teach/src/module/course/router/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xc-ui-pc-teach/src/module/exam/page/add.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xc-ui-pc-teach/src/module/exam/page/list.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xc-ui-pc-teach/src/module/exam/router/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xc-ui-pc-teach/src/module/home/api/banner.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xc-ui-pc-teach/src/module/home/api/home.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xc-ui-pc-teach/src/module/home/components/banner.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xc-ui-pc-teach/src/module/home/page/home.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xc-ui-pc-teach/src/module/home/page/login.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xc-ui-pc-teach/src/module/home/page/register.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xc-ui-pc-teach/src/module/home/router/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xc-ui-pc-teach/src/module/media/api/media.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xc-ui-pc-teach/src/module/media/page/media_list.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xc-ui-pc-teach/src/module/media/page/upload.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xc-ui-pc-teach/src/module/media/page/upload1.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xc-ui-pc-teach/src/module/media/page/upload2.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xc-ui-pc-teach/src/module/media/router/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xc-ui-pc-teach/src/module/question/page/add.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xc-ui-pc-teach/src/module/question/page/list.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xc-ui-pc-teach/src/module/question/router/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xc-ui-pc-teach/src/statics/aa.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xc-ui-pc-teach/src/statics/css/site.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xc-ui-pc-teach/src/statics/css/vars.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xc-ui-pc-teach/src/statics/mui/css/icons-extra.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xc-ui-pc-teach/src/statics/mui/css/mui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xc-ui-pc-teach/src/statics/mui/fonts/mui-icons-extra.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xc-ui-pc-teach/src/statics/mui/fonts/mui.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xc-ui-pc-teach/src/statics/test.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xc-ui-pc-teach/src/vuex/actions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xc-ui-pc-teach/src/vuex/getters.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xc-ui-pc-teach/src/vuex/store.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xc-ui-pc-teach/static/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xc-ui-pc-teach/static/css/webuploader/webuploader.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xc-ui-pc-teach/static/images/add.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xc-ui-pc-teach/static/images/asset-logoIco-white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xc-ui-pc-teach/static/images/nonepic.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xc-ui-pc-teach/static/images/small.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xc-ui-pc-teach/static/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xc-ui-pc-teach/static/plugins/jquery/._.DS_Store" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xc-ui-pc-teach/static/plugins/jquery/AUTHORS.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xc-ui-pc-teach/static/plugins/jquery/LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xc-ui-pc-teach/static/plugins/jquery/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xc-ui-pc-teach/static/plugins/jquery/bower.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xc-ui-pc-teach/static/plugins/jquery/dist/core.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xc-ui-pc-teach/static/plugins/jquery/dist/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xc-ui-pc-teach/static/plugins/jquery/dist/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xc-ui-pc-teach/static/plugins/jquery/dist/jquery.min.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xc-ui-pc-teach/static/plugins/jquery/dist/jquery.slim.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xc-ui-pc-teach/static/plugins/jquery/dist/jquery.slim.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xc-ui-pc-teach/static/plugins/jquery/dist/jquery.slim.min.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xc-ui-pc-teach/static/plugins/jquery/external/._.DS_Store" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xc-ui-pc-teach/static/plugins/jquery/external/sizzle/._.DS_Store" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xc-ui-pc-teach/static/plugins/jquery/external/sizzle/LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xc-ui-pc-teach/static/plugins/jquery/external/sizzle/dist/sizzle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xc-ui-pc-teach/static/plugins/jquery/external/sizzle/dist/sizzle.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xc-ui-pc-teach/static/plugins/jquery/external/sizzle/dist/sizzle.min.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xc-ui-pc-teach/static/plugins/jquery/src/._.DS_Store" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xc-ui-pc-teach/static/plugins/jquery/src/ajax.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xc-ui-pc-teach/static/plugins/jquery/src/ajax/._.DS_Store" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xc-ui-pc-teach/static/plugins/jquery/src/ajax/jsonp.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xc-ui-pc-teach/static/plugins/jquery/src/ajax/load.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xc-ui-pc-teach/static/plugins/jquery/src/ajax/parseJSON.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xc-ui-pc-teach/static/plugins/jquery/src/ajax/parseXML.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xc-ui-pc-teach/static/plugins/jquery/src/ajax/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xc-ui-pc-teach/static/plugins/jquery/src/ajax/var/location.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xc-ui-pc-teach/static/plugins/jquery/src/ajax/var/nonce.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xc-ui-pc-teach/static/plugins/jquery/src/ajax/var/rquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xc-ui-pc-teach/static/plugins/jquery/src/ajax/xhr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xc-ui-pc-teach/static/plugins/jquery/src/attributes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xc-ui-pc-teach/static/plugins/jquery/src/attributes/attr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xc-ui-pc-teach/static/plugins/jquery/src/attributes/classes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xc-ui-pc-teach/static/plugins/jquery/src/attributes/prop.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xc-ui-pc-teach/static/plugins/jquery/src/attributes/support.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xc-ui-pc-teach/static/plugins/jquery/src/attributes/val.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xc-ui-pc-teach/static/plugins/jquery/src/callbacks.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xc-ui-pc-teach/static/plugins/jquery/src/core.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xc-ui-pc-teach/static/plugins/jquery/src/core/._.DS_Store" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xc-ui-pc-teach/static/plugins/jquery/src/core/DOMEval.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xc-ui-pc-teach/static/plugins/jquery/src/core/access.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xc-ui-pc-teach/static/plugins/jquery/src/core/init.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xc-ui-pc-teach/static/plugins/jquery/src/core/nodeName.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xc-ui-pc-teach/static/plugins/jquery/src/core/parseHTML.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xc-ui-pc-teach/static/plugins/jquery/src/core/ready-no-deferred.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xc-ui-pc-teach/static/plugins/jquery/src/core/ready.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xc-ui-pc-teach/static/plugins/jquery/src/core/readyException.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xc-ui-pc-teach/static/plugins/jquery/src/core/stripAndCollapse.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xc-ui-pc-teach/static/plugins/jquery/src/core/support.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xc-ui-pc-teach/static/plugins/jquery/src/core/var/rsingleTag.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xc-ui-pc-teach/static/plugins/jquery/src/css.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xc-ui-pc-teach/static/plugins/jquery/src/css/._.DS_Store" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xc-ui-pc-teach/static/plugins/jquery/src/css/addGetHookIf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xc-ui-pc-teach/static/plugins/jquery/src/css/adjustCSS.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xc-ui-pc-teach/static/plugins/jquery/src/css/curCSS.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xc-ui-pc-teach/static/plugins/jquery/src/css/defaultDisplay.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xc-ui-pc-teach/static/plugins/jquery/src/css/hiddenVisibleSelectors.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xc-ui-pc-teach/static/plugins/jquery/src/css/showHide.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xc-ui-pc-teach/static/plugins/jquery/src/css/support.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xc-ui-pc-teach/static/plugins/jquery/src/css/var/cssExpand.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xc-ui-pc-teach/static/plugins/jquery/src/css/var/getStyles.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xc-ui-pc-teach/static/plugins/jquery/src/css/var/isHidden.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xc-ui-pc-teach/static/plugins/jquery/src/css/var/isHiddenWithinTree.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xc-ui-pc-teach/static/plugins/jquery/src/css/var/rmargin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xc-ui-pc-teach/static/plugins/jquery/src/css/var/rnumnonpx.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xc-ui-pc-teach/static/plugins/jquery/src/css/var/swap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xc-ui-pc-teach/static/plugins/jquery/src/data.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xc-ui-pc-teach/static/plugins/jquery/src/data/._.DS_Store" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xc-ui-pc-teach/static/plugins/jquery/src/data/Data.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xc-ui-pc-teach/static/plugins/jquery/src/data/var/acceptData.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xc-ui-pc-teach/static/plugins/jquery/src/data/var/dataPriv.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xc-ui-pc-teach/static/plugins/jquery/src/data/var/dataUser.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xc-ui-pc-teach/static/plugins/jquery/src/deferred.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xc-ui-pc-teach/static/plugins/jquery/src/deferred/exceptionHook.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xc-ui-pc-teach/static/plugins/jquery/src/deprecated.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xc-ui-pc-teach/static/plugins/jquery/src/dimensions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xc-ui-pc-teach/static/plugins/jquery/src/effects.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xc-ui-pc-teach/static/plugins/jquery/src/effects/Tween.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xc-ui-pc-teach/static/plugins/jquery/src/effects/animatedSelector.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xc-ui-pc-teach/static/plugins/jquery/src/event.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xc-ui-pc-teach/static/plugins/jquery/src/event/ajax.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xc-ui-pc-teach/static/plugins/jquery/src/event/alias.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xc-ui-pc-teach/static/plugins/jquery/src/event/focusin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xc-ui-pc-teach/static/plugins/jquery/src/event/support.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xc-ui-pc-teach/static/plugins/jquery/src/event/trigger.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xc-ui-pc-teach/static/plugins/jquery/src/exports/amd.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xc-ui-pc-teach/static/plugins/jquery/src/exports/global.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xc-ui-pc-teach/static/plugins/jquery/src/intro.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xc-ui-pc-teach/static/plugins/jquery/src/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xc-ui-pc-teach/static/plugins/jquery/src/manipulation.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xc-ui-pc-teach/static/plugins/jquery/src/manipulation/._.DS_Store" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xc-ui-pc-teach/static/plugins/jquery/src/manipulation/_evalUrl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xc-ui-pc-teach/static/plugins/jquery/src/manipulation/buildFragment.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xc-ui-pc-teach/static/plugins/jquery/src/manipulation/getAll.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xc-ui-pc-teach/static/plugins/jquery/src/manipulation/setGlobalEval.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xc-ui-pc-teach/static/plugins/jquery/src/manipulation/support.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xc-ui-pc-teach/static/plugins/jquery/src/manipulation/var/rcheckableType.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xc-ui-pc-teach/static/plugins/jquery/src/manipulation/var/rscriptType.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xc-ui-pc-teach/static/plugins/jquery/src/manipulation/var/rtagName.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xc-ui-pc-teach/static/plugins/jquery/src/manipulation/wrapMap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xc-ui-pc-teach/static/plugins/jquery/src/offset.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xc-ui-pc-teach/static/plugins/jquery/src/outro.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xc-ui-pc-teach/static/plugins/jquery/src/queue.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xc-ui-pc-teach/static/plugins/jquery/src/queue/delay.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xc-ui-pc-teach/static/plugins/jquery/src/selector-native.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xc-ui-pc-teach/static/plugins/jquery/src/selector-sizzle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xc-ui-pc-teach/static/plugins/jquery/src/selector.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xc-ui-pc-teach/static/plugins/jquery/src/serialize.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xc-ui-pc-teach/static/plugins/jquery/src/traversing.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xc-ui-pc-teach/static/plugins/jquery/src/traversing/._.DS_Store" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xc-ui-pc-teach/static/plugins/jquery/src/traversing/findFilter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xc-ui-pc-teach/static/plugins/jquery/src/traversing/var/dir.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xc-ui-pc-teach/static/plugins/jquery/src/traversing/var/rneedsContext.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xc-ui-pc-teach/static/plugins/jquery/src/traversing/var/siblings.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xc-ui-pc-teach/static/plugins/jquery/src/var/ObjectFunctionString.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xc-ui-pc-teach/static/plugins/jquery/src/var/arr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xc-ui-pc-teach/static/plugins/jquery/src/var/class2type.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xc-ui-pc-teach/static/plugins/jquery/src/var/concat.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xc-ui-pc-teach/static/plugins/jquery/src/var/document.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xc-ui-pc-teach/static/plugins/jquery/src/var/documentElement.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xc-ui-pc-teach/static/plugins/jquery/src/var/fnToString.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xc-ui-pc-teach/static/plugins/jquery/src/var/getProto.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xc-ui-pc-teach/static/plugins/jquery/src/var/hasOwn.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xc-ui-pc-teach/static/plugins/jquery/src/var/indexOf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xc-ui-pc-teach/static/plugins/jquery/src/var/pnum.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xc-ui-pc-teach/static/plugins/jquery/src/var/push.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xc-ui-pc-teach/static/plugins/jquery/src/var/rcssNum.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xc-ui-pc-teach/static/plugins/jquery/src/var/rnothtmlwhite.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xc-ui-pc-teach/static/plugins/jquery/src/var/rnotwhite.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xc-ui-pc-teach/static/plugins/jquery/src/var/slice.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xc-ui-pc-teach/static/plugins/jquery/src/var/support.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xc-ui-pc-teach/static/plugins/jquery/src/var/toString.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xc-ui-pc-teach/static/plugins/jquery/src/wrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xc-ui-pc-teach/static/plugins/webuploader/dist/Uploader.swf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xc-ui-pc-teach/static/plugins/webuploader/dist/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xc-ui-pc-teach/static/plugins/webuploader/dist/webuploader.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xc-ui-pc-teach/static/small.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xc-ui-pc-teach/test/e2e/custom-assertions/elementCount.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xc-ui-pc-teach/test/e2e/nightwatch.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xc-ui-pc-teach/test/e2e/runner.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xc-ui-pc-teach/test/e2e/specs/test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xc-ui-pc-teach/test/unit/.eslintrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xc-ui-pc-teach/test/unit/jest.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xc-ui-pc-teach/test/unit/setup.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xc-ui-pc-teach/test/unit/specs/HelloWorld.spec.js" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pages/course/search/index.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="28">
+              <caret line="7" column="27" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="221" />
+    <option name="y" value="131" />
+    <option name="width" value="1240" />
+    <option name="height" value="604" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="xc-ui-pc-portal" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xc-ui-pc-portal" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xc-ui-pc-portal" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xc-ui-pc-portal" type="462c0819:PsiDirectoryNode" />
+              <item name="layouts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xc-ui-pc-portal" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xc-ui-pc-portal" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xc-ui-pc-portal" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xc-ui-pc-portal" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="course" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="editor.config.ad.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.standard" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.standard" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.standard" value="" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="prettierjs.PrettierConfiguration.Package" value="F:\WebStormProject\xcEduUI\xc-ui-pc-portal\node_modules\prettier" />
+    <property name="settings.editor.selected.configurable" value="settings.javascript.linters.eslint" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.dev" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c5f5d53d-4435-4b1e-a77d-f2a80f6bad41" name="Default Changelist" comment="" />
+      <created>1557914010516</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1557914010516</updated>
+      <workItem from="1557914019492" duration="2070000" />
+      <workItem from="1557968706644" duration="1972000" />
+      <workItem from="1558434561064" duration="596000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="4638000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="114" y="67" width="992" height="483" extended-state="7" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15690376" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="npm" order="2" side_tool="true" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3711048" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32956153" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/layouts/default1.vue">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/course/search/index.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="28">
+          <caret line="7" column="27" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
