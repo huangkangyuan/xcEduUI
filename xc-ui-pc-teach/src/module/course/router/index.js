@@ -7,8 +7,8 @@ import course_summary from '@/module/course/page/course_manage/course_summary.vu
 import course_picture from '@/module/course/page/course_manage/course_picture.vue';
 import course_baseinfo from '@/module/course/page/course_manage/course_baseinfo.vue';
 import course_marketinfo from '@/module/course/page/course_manage/course_marketinfo.vue';
-import course_teacher from '@/module/course/page/course_manage/course_teacher.vue';
 import course_plan from '@/module/course/page/course_manage/course_plan.vue';
+import course_teacher from '@/module/course/page/course_manage/course_teacher.vue';
 import course_pub from '@/module/course/page/course_manage/course_pub.vue';
 export default [
   {

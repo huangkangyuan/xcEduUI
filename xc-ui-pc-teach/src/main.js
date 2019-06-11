@@ -27,27 +27,27 @@ import * as systemApi from './base/api/system';
 // Mock.bootstrap();
 
 
-Vue.config.productionTip = false
+Vue.config.productionTip = false;
 
 // 在Vue中全局使用mintui
 Vue.use(mintui);
-Vue.use(ElementUI)
-Vue.use(Vuex)
-Vue.use(VueRouter)
+Vue.use(ElementUI);
+Vue.use(Vuex);
+Vue.use(VueRouter);
 
 
 Vue.component(Swipe.name, Swipe);
 Vue.component(SwipeItem.name, SwipeItem);
 //  将vue-resource在vue中绑定，自动在vue对象实例上注入一个$http对象就可以使用ajax方法了
 import vueResource from 'vue-resource';
-let sysConfig = require('@/../config/sysConfig')
-let openAuthenticate = sysConfig.openAuthenticate
-let openAuthorize = sysConfig.openAuthorize
+let sysConfig = require('@/../config/sysConfig');
+let openAuthenticate = sysConfig.openAuthenticate;
+let openAuthorize = sysConfig.openAuthorize;
 Vue.use(vueResource);
 /* eslint-disable no-new */
 const router = new VueRouter({
   routes:routes
-})
+});
 
 
 router.beforeEach((to, from, next) => {
@@ -56,10 +56,10 @@ router.beforeEach((to, from, next) => {
     // console.log(to)
     // console.log(from)
     //***********身份校验***************
-    let activeUser
-    let uid
+    let activeUser;
+    let uid;
     try{
-      activeUser = utilApi.getActiveUser()
+      activeUser = utilApi.getActiveUser();
       uid = utilApi.getCookie("uid")
     }catch(e){
       //alert(e)
@@ -74,19 +74,19 @@ router.beforeEach((to, from, next) => {
       systemApi.getjwt().then((res)=>{
         if(res.success){
           let jwt = res.jwt;
-          let activeUser = utilApi.getUserInfoFromJwt(jwt)
+          let activeUser = utilApi.getUserInfoFromJwt(jwt);
           if(activeUser){
             utilApi.setUserSession("activeUser",JSON.stringify(activeUser))
           }
           next();
         }else{
           //跳转到统一登陆
-          window.location = "http://ucenter.xuecheng.com/#/login?returnUrl="+ Base64.encode(window.location)
+          window.location = "http://ucenter.xc.com/#/login?returnUrl="+ Base64.encode(window.location)
         }
       })
     }else{
       //跳转到统一登陆
-      window.location = "http://ucenter.xuecheng.com/#/login?returnUrl="+ Base64.encode(window.location)
+      window.location = "http://ucenter.xc.com/#/login?returnUrl="+ Base64.encode(window.location)
     }
   }else{
     next();
@@ -121,7 +121,7 @@ import { Message } from 'element-ui';
 // 添加请求拦截器，实现http请求添加Authorization头信息
 axios.interceptors.request.use(function (config) {
   // 在发送请求向header添加jwt
-  let jwt = utilApi.getJwt()
+  let jwt = utilApi.getJwt();
   if(jwt){
     config.headers['Authorization'] = 'Bearer '+jwt
   }
@@ -129,10 +129,11 @@ axios.interceptors.request.use(function (config) {
 }, function (error) {
   return Promise.reject(error);
 });
+
 // 响应拦截
-/*axios.interceptors.response.use(data => {
-  console.log("data=")
-  console.log(data)
+axios.interceptors.response.use(data => {
+  console.log("data=");
+  console.log(data);
   if(data && data.data){
     if(data.data.code && data.data.code =='10001'){
       //需要登录
@@ -140,7 +141,7 @@ axios.interceptors.request.use(function (config) {
       //   path: '/login',
       //   query: {returnUrl: Base64.encode(window.location)}
       // })
-      window.location = "http://ucenter.xuecheng.com/#/login?returnUrl="+ Base64.encode(window.location)
+      window.location = "http://ucenter.xc.com/#/login?returnUrl="+ Base64.encode(window.location)
     }else if(data.data.code && data.data.code =='10002'){
       Message.error('您没有此操作的权限，请与客服联系！');
     }else if(data.data.code && data.data.code =='10003'){
@@ -148,7 +149,7 @@ axios.interceptors.request.use(function (config) {
     }
   }
   return data
-})*/
+});
 /*
  //axios请求超时设置
 axios.defaults.retry = 2;
@@ -213,4 +214,4 @@ new Vue({
   // template: '<App/>',
   // components: { App }
   render: c => c(App)
-})
+});

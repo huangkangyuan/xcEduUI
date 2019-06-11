@@ -117,7 +117,7 @@
       //保存选择的视频
       choosemedia(mediaId,fileOriginalName,mediaUrl){
         //保存视频到课程计划表中
-        let teachplanMedia ={}
+        let teachplanMedia ={};
         teachplanMedia.mediaId =mediaId;
         teachplanMedia.mediaFileOriginalName =fileOriginalName;
         teachplanMedia.mediaUrl =mediaUrl;
@@ -125,9 +125,9 @@
         //课程计划
         teachplanMedia.teachplanId=this.teachplanId
 
-        courseApi.savemedia(teachplanMedia).then(res=>{
+        courseApi.saveMedia(teachplanMedia).then(res=>{
             if(res.success){
-                this.$message.success("选择视频成功")
+                this.$message.success("选择视频成功");
               //查询课程计划
               this.findTeachplan()
             }else{
@@ -193,7 +193,7 @@
           </span>);
       },
       findTeachplan(){
-        this.teachplanList = []
+        this.teachplanList = [];
         //查询课程计划
         courseApi.findTeachplanList(this.courseid).then(res=>{
             if(res && res.children){

@@ -56,8 +56,8 @@ export const findCourseView = courseId => {
 };
 
 /*保存媒资信息*/
-export const savemedia = teachplanMedia => {
-  return http.requestPost(apiUrl+'/course/savemedia',teachplanMedia);
+export const saveMedia = teachplanMedia => {
+  return http.requestPost(apiUrl+'/course/saveMedia',teachplanMedia);
 };
 
 //获取课程基本信息
@@ -77,10 +77,5 @@ export const getCourseMarketById = id => {
 // 更新课程营销信息
 export const updateCourseMarket =(id,courseMarket) => {
   return http.requestPost(apiUrl+'/course/courseMarket/update/'+id,courseMarket)
-};
-
-// 更新教师信息
-export const findTeacherInfo =(id) => {
-  return http.requestPost(apiUrl+'/course/teacher/get/'+id)
 };
 

@@ -26,7 +26,7 @@
             <div class="usermenu" >
               <span class="el-dropdown-link userinfo-inner"><img :src="this.user.sysUserImg!=null?this.user.sysUserImg:'/static/images/small.jpg'"/></span>
               欢迎您：{{user.username}}
-              <a href="http://www.xuecheng.com" target="_blank"><i class="el-icon-star-on"></i>首页</a>
+              <a href="http://www.xc.com" target="_blank"><i class="el-icon-star-on"></i>首页</a>
               <a href="javascript:;" @click="logout" :loading="editLoading"><i class="el-icon-circle-close"></i>退出</a>
             </div>
           </div>
@@ -71,7 +71,7 @@
         this.$confirm('确认退出吗?', '提示', {
         }).then(() => {
           //跳转到统一登陆
-          window.location = "http://ucenter.xuecheng.com/#/logout"
+          window.location = "http://ucenter.xc.com/#/logout"
           /*const loading = this.$loading({
             lock: true,
             text: 'Loading',

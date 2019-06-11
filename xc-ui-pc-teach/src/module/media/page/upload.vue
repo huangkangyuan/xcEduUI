@@ -51,7 +51,7 @@
           "after-send-file":"afterSendFile"
         },{
           beforeSendFile:function(file) {
-            // 创建一个deffered,用于通知是否完成操作
+            // 创建一个deferred,用于通知是否完成操作
             var deferred = WebUploader.Deferred();
             // 计算文件的唯一标识，用于断点续传
             (new WebUploader.Uploader()).md5File(file, 0, 100*1024*1024)
@@ -70,7 +70,7 @@
                       fileMd5:this.fileMd5,
                       fileName: file.name,
                       fileSize:file.size,
-                      mimetype:file.type,
+                      mimeType:file.type,
                       fileExt:file.ext
                     },
                     dataType:"json",
@@ -95,7 +95,7 @@
             $.ajax(
               {
                 type:"POST",
-                url:"/api/media/upload/checkchunk",
+                url:"/api/media/upload/checkChunk",
                 data:{
                   // 文件唯一表示
                   fileMd5:this.fileMd5,
@@ -106,7 +106,7 @@
                 },
                 dataType:"json",
                 success:function(response) {
-                  if(response.ifExist) {
+                  if(response.fileExist) {
                     // 分块存在，跳过该分块
                     deferred.reject();
                   } else {
@@ -126,12 +126,12 @@
             $.ajax(
               {
                 type:"POST",
-                url:"/api/media/upload/mergechunks",
+                url:"/api/media/upload/mergeChunks",
                 data:{
                   fileMd5:this.fileMd5,
                   fileName: file.name,
                   fileSize:file.size,
-                  mimetype:file.type,
+                  mimeType:file.type,
                   fileExt:file.ext
                 },
                 success:function(response){
@@ -151,7 +151,7 @@
       this.uploader = WebUploader.create(
         {
           swf:"/static/plugins/webuploader/dist/Uploader.swf",//上传文件的flash文件，浏览器不支持h5时启动flash
-          server:"/api/media/upload/uploadchunk",//上传分块的服务端地址，注意跨域问题
+          server:"/api/media/upload/uploadChunk",//上传分块的服务端地址，注意跨域问题
           fileVal:"file",//文件上传域的name
           pick:"#picker",//指定选择文件的按钮容器
           auto:false,//手动触发上传
@@ -174,7 +174,7 @@
       this.uploader.on("beforeFileQueued", function(file) {
 //     this.uploader.removeFile(file)
         //重置uploader
-        this.uploader.reset()
+        this.uploader.reset();
         this.percentage = 0;
       }.bind(this));
 
@@ -185,7 +185,7 @@
       }.bind(this));
       //上传失败触发
       this.uploader.on("uploadError", function(file,reason) {
-        console.log(reason)
+        console.log(reason);
         alert("上传文件失败");
       });
       //上传成功触发
