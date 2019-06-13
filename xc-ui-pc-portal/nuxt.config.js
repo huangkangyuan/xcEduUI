@@ -57,4 +57,4 @@ module.exports = {
 /*    ['/group1', { target: 'http://192.168.101.64' }],
     ['/search', { target: 'http://127.0.0.1:40100',pathRewrite: { '^/search' : '/' } }]*/
   ]
-}
+};

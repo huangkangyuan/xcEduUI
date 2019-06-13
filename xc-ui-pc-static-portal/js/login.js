@@ -7,12 +7,12 @@
     //将参数格式化为key/value串
     let loginRequest = querystringify(params);
     return requestPostForm('/openapi/auth/userlogin',loginRequest);
-}
+};
 /*退出*/
  const logout = () => {
     return requestPost('/openapi/auth/userlogout');
-}
+};
 /*获取jwt令牌*/
 const getjwt = () => {
     return requestGet('/openapi/auth/userjwt');
-}
+};

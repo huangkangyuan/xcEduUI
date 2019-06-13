@@ -1,7 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="82deeab0-57f7-48b9-a83b-da9d0b3d04ef" name="Default Changelist" comment="" />
+    <list default="true" id="82deeab0-57f7-48b9-a83b-da9d0b3d04ef" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../xc-ui-pc-leanring/build/build.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xc-ui-pc-leanring/build/check-versions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xc-ui-pc-leanring/build/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xc-ui-pc-leanring/build/utils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xc-ui-pc-leanring/build/vue-loader.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xc-ui-pc-leanring/build/webpack.base.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xc-ui-pc-leanring/build/webpack.dev.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xc-ui-pc-leanring/build/webpack.prod.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xc-ui-pc-leanring/build/webpack.test.conf.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/course/detail/297e7c7c62b8aa9d0162b8ab56ba0001.html" beforeDir="false" afterPath="$PROJECT_DIR$/../static/course/detail/297e7c7c62b8aa9d0162b8ab56ba0001.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/course/detail/4028b8816aa6dd6b016aa6de464a0000.html" beforeDir="false" afterPath="$PROJECT_DIR$/../static/course/detail/4028b8816aa6dd6b016aa6de464a0000.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/course/detail/4028b8816aae3089016aae43c6560000.html" beforeDir="false" afterPath="$PROJECT_DIR$/../static/course/detail/4028b8816aae3089016aae43c6560000.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../static/course/detail/4028e58161bd3b380161bd3bcd2f0000.html" beforeDir="false" afterPath="$PROJECT_DIR$/../static/course/detail/4028e58161bd3b380161bd3bcd2f0000.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xc-ui-pc-portal/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../xc-ui-pc-portal/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xc-ui-pc-portal/api/course.js" beforeDir="false" afterPath="$PROJECT_DIR$/../xc-ui-pc-portal/api/course.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xc-ui-pc-portal/api/login.js" beforeDir="false" afterPath="$PROJECT_DIR$/../xc-ui-pc-portal/api/login.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xc-ui-pc-portal/api/public.js" beforeDir="false" afterPath="$PROJECT_DIR$/../xc-ui-pc-portal/api/public.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xc-ui-pc-portal/config/sysConfig.js" beforeDir="false" afterPath="$PROJECT_DIR$/../xc-ui-pc-portal/config/sysConfig.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xc-ui-pc-portal/nuxt.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/../xc-ui-pc-portal/nuxt.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xc-ui-pc-portal/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../xc-ui-pc-portal/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xc-ui-pc-portal/pages/course/search/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../xc-ui-pc-portal/pages/course/search/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xc-ui-pc-portal/static/sw.js" beforeDir="false" afterPath="$PROJECT_DIR$/../xc-ui-pc-portal/static/sw.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/course_detail_dynamic.html" beforeDir="false" afterPath="$PROJECT_DIR$/include/course_detail_dynamic.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/include/header.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/login.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/login.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/util.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/util.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/video.html" beforeDir="false" afterPath="$PROJECT_DIR$/video.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xc-ui-pc-teach/config/sysConfig.js" beforeDir="false" afterPath="$PROJECT_DIR$/../xc-ui-pc-teach/config/sysConfig.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xc-ui-pc-teach/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../xc-ui-pc-teach/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xc-ui-pc-teach/src/base/components/head.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../xc-ui-pc-teach/src/base/components/head.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xc-ui-pc-teach/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/../xc-ui-pc-teach/src/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xc-ui-pc-teach/src/module/course/api/course.js" beforeDir="false" afterPath="$PROJECT_DIR$/../xc-ui-pc-teach/src/module/course/api/course.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xc-ui-pc-teach/src/module/course/page/course_manage/course_plan.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../xc-ui-pc-teach/src/module/course/page/course_manage/course_plan.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xc-ui-pc-teach/src/module/course/page/course_manage/course_teacher.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xc-ui-pc-teach/src/module/course/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../xc-ui-pc-teach/src/module/course/router/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xc-ui-pc-teach/src/module/media/api/media.js" beforeDir="false" afterPath="$PROJECT_DIR$/../xc-ui-pc-teach/src/module/media/api/media.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xc-ui-pc-teach/src/module/media/page/upload.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../xc-ui-pc-teach/src/module/media/page/upload.vue" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -27,7 +66,14 @@
       <find>prototype</find>
       <find>test.</find>
       <find>test</find>
+      <find>登录</find>
+      <find>showlogin</find>
+      <find>xuecheng</find>
+      <find>logout</find>
     </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -45,22 +91,33 @@
         <option value="$PROJECT_DIR$/webpacktest2/webpack.config.js" />
         <option value="$PROJECT_DIR$/include/index_banner.html" />
         <option value="$PROJECT_DIR$/css/el/index.js" />
+        <option value="$PROJECT_DIR$/video.html" />
         <option value="$PROJECT_DIR$/include/course_detail_dynamic.html" />
+        <option value="$PROJECT_DIR$/js/util.js" />
+        <option value="$PROJECT_DIR$/js/login.js" />
+        <option value="$PROJECT_DIR$/include/header.html" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="30" />
-    <option name="y" value="68" />
-    <option name="width" value="1548" />
-    <option name="height" value="753" />
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+      </list>
+    </option>
   </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="167" />
+    <option name="y" value="182" />
+    <option name="width" value="1550" />
+    <option name="height" value="755" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -72,10 +129,12 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -143,23 +202,26 @@
       <workItem from="1557277736629" duration="2534000" />
       <workItem from="1557452083703" duration="2644000" />
       <workItem from="1557569064753" duration="3963000" />
+      <workItem from="1559026724896" duration="2213000" />
+      <workItem from="1559317391018" duration="486000" />
+      <workItem from="1559529620405" duration="39000" />
+      <workItem from="1559529920724" duration="3658000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26531000" />
+    <option name="totallyTimeSpent" value="32927000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="24" y="55" width="1238" height="602" extended-state="0" />
-    <editor active="true" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
       <window_info id="npm" order="0" sideWeight="0.5007072" side_tool="true" weight="0.24966975" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" sideWeight="0.4992928" visible="true" weight="0.3502496" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" sideWeight="0.4992928" visible="true" weight="0.22060767" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32956153" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.49222064" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.04249292" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.6930693" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -174,7 +236,7 @@
     </layout>
     <layout-to-restore>
       <window_info id="npm" order="0" sideWeight="0.5007072" side_tool="true" weight="0.24966975" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" sideWeight="0.4992928" visible="true" weight="0.27807134" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" sideWeight="0.4992928" visible="true" weight="0.22060767" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -197,13 +259,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="28">
-          <caret line="161" column="9" lean-forward="true" selection-start-line="161" selection-start-column="9" selection-end-line="161" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/plugins/videojs/video.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="28">
@@ -377,13 +432,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/include/header.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="28">
-          <caret line="12" column="50" selection-start-line="12" selection-start-column="50" selection-end-line="12" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/include/footer.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="253">
@@ -391,17 +439,52 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/include/course_detail_dynamic.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="22" column="16" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/include/course_detail_side.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
           <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/video.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="835">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/course_detail_dynamic.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="597">
+          <caret line="203" column="22" selection-start-line="203" selection-start-column="22" selection-end-line="203" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/util.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1540">
+          <caret line="76" column="47" lean-forward="true" selection-start-line="76" selection-start-column="47" selection-end-line="76" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/login.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="16" column="47" lean-forward="true" selection-start-line="16" selection-start-column="47" selection-end-line="16" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/header.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1575">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="788">
+          <caret line="196" column="14" selection-start-line="196" selection-start-column="12" selection-end-line="196" selection-end-column="14" />
         </state>
       </provider>
     </entry>

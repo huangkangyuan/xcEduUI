@@ -6,12 +6,12 @@ export const login = params => {
   let loginRequest = qs.stringify(params);
 
   return http.requestPostForm('/api/auth/login',loginRequest);
-}
+};
 /*退出*/
 export const logout = params => {
   sessionStorage.removeItem('activeUser');
   return http.requestPost('/api/auth/userlogout');
-}
+};
 
 
 

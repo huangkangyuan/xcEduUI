@@ -20,6 +20,7 @@
     <script src="/js/util.js"></script>
     <script src="/js/public.js"></script>
     <script src="/js/login.js"></script>
+    <script src="/css/el/index.js"></script>
 
 
 </head>
@@ -47,10 +48,10 @@
                     <!--<a href="#" class="personal"><span class="personalIco"></span>消息</a>-->
                     <span v-if="logined == true">欢迎{{this.user.username}}</span>
                     <a href="javascript:;" @click="logout" v-if="logined == true">退出</a>
-                    <a href="http://ucenter.xuecheng.com/" class="personal" target="_blank">我的学习</a>
+                    <a href="http://ucenter.xc.com/" class="personal" target="_blank">我的学习</a>
                     <a href="javascript:;" @click="showlogin" v-if="logined == false">登陆&nbsp;|&nbsp;注册</a>
-                    <a href="http://teacher.xuecheng.com/" class="personal" target="_blank">教学提供方</a>
-                    <a href="http://system.xuecheng.com/" class="personal" target="_blank">系统后台</a>
+                    <a href="http://teacher.xc.com/" class="personal" target="_blank">教学提供方</a>
+                    <a href="http://system.xc.com/" class="personal" target="_blank">系统后台</a>
                     <!--<a href="#" class="myInfo"><img src="img/asset-myImg.jpg" alt="">个人中心</a>-->
                 </div>
                 <!--<div class="starch">
@@ -94,7 +95,7 @@
                 if (this.keyword === '') {
                     window.location = "/course/search"
                 } else {
-                    let keyword = encodeURIComponent(this.keyword)
+                    let keyword = encodeURIComponent(this.keyword);
                     window.location = "/course/search?keyword="+keyword
                 }
             },
@@ -102,19 +103,18 @@
                 this.$confirm('确认退出吗?', '提示', {
                 }).then(() => {
                     //跳转到统一登陆
-                    window.location = "http://ucenter.xuecheng.com/#/logout"
+                    window.location = "http://ucenter.xc.com/#/logout"
                 }).catch(() => {
-
                 });
             },
             refresh_user:function(){
                 //从sessionStorage中取出当前用户
                 let activeUser= getActiveUser();
                 //取出cookie中的令牌
-                let uid = getCookie("uid")
+                let uid = getCookie("uid");
                 //console.log(activeUser)
-                if(activeUser && uid && uid == activeUser.uid){
-                    this.logined = true
+                if(activeUser && uid && uid === activeUser.uid){
+                    this.logined = true;
                     this.user = activeUser;
                 }else{
                     if(!uid){
@@ -124,9 +124,9 @@
                     getjwt().then((res) => {
                         if(res.success){
                             let jwt = res.jwt;
-                            let activeUser = getUserInfoFromJwt(jwt)
+                            let activeUser = getUserInfoFromJwt(jwt);
                             if(activeUser){
-                                this.logined = true
+                                this.logined = true;
                                 this.user = activeUser;
                                 setUserSession("activeUser",JSON.stringify(activeUser))
                             }
@@ -138,7 +138,7 @@
                 this.$refs[formName].resetFields();
             },
             showlogin: function(){
-                window.location = "http://ucenter.xuecheng.com/#/login?returnUrl="+ Base64.encode(window.location)
+                window.location = "http://ucenter.xc.com/#/login?returnUrl="+ Base64.encode(window.location)
             }
         },
        created() {

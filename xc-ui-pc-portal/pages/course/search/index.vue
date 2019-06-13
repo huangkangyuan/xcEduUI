@@ -3,7 +3,7 @@
     <div class="learing-list">
       <div class="list-box">
         <ul>
-          <li>关键字ss：</li>
+          <li>关键字搜索：</li>
           <ol>
             <li>{{keyword}}
 
@@ -91,7 +91,7 @@
                     </ul>
                   </a>
                 </div>-->
-                <div class="recom-item" v-for="(course, index) in courselist">
+                <div class="recom-item" v-for="(course, index) in courseList">
                   <a :href="'/course/detail/'+course.id+'.html'" target="_blank">
                     <!--<a href="/course/detail/test.html" target="_blank">-->
                     <div v-if="course.pic">
@@ -198,18 +198,18 @@
       //请求搜索服务，搜索服务
       let course_data = await courseApi.search_course(page,2,route.query);
       //查询分类
-      let category_data = await courseApi.sysres_category()
+      let category_data = await courseApi.sysres_category();
       if (course_data &&　course_data.queryResult ) {
         //全部分类
-        let category = category_data.category//分部分类
-        let first_category = category[0].children//一级分类
-        let second_category=[]//二级分类
-        let keywords = ''
-        let mt=''
-        let st=''
-        let grade=''
-        let keyword=''
-        let total = course_data.queryResult.total
+        let category = category_data.category;//分部分类
+        let first_category = category[0].children;//一级分类
+        let second_category=[];//二级分类
+        let keywords = '';
+        let mt='';
+        let st='';
+        let grade='';
+        let keyword='';
+        let total = course_data.queryResult.total;
         if( route.query.mt){
           mt = route.query.mt
         }
@@ -233,7 +233,7 @@
           }
         }
         return {
-          courselist: course_data.queryResult.list,//课程列表
+          courseList: course_data.queryResult.list,//课程列表
           first_category:first_category,
           second_category:second_category,
           mt:mt,
@@ -247,7 +247,7 @@
 
       }else{
         return {
-          courselist: {},//课程列表
+          courseList: {},//课程列表
           first_category:{},
           second_category:{},
           mt:'',
@@ -264,7 +264,7 @@
     },
     data(){
       return {
-        courselist: {},
+        courseList: {},
         first_category:{},
         second_category:{},
         mt:'',
@@ -284,11 +284,11 @@
       //分页触发
       handleCurrentChange(page) {
         //当前页码
-        this.page = page
+        this.page = page;
         //将当前页码设置到route中
-        this.$route.query.page = page
+        this.$route.query.page = page;
         //将route中所有参数转成key/value串
-        let querys = querystring.stringify(this.$route.query)
+        let querys = querystring.stringify(this.$route.query);
         window.location = '/course/search?'+querys;
       },
       search(){
